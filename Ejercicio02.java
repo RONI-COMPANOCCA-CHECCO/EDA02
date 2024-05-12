@@ -8,7 +8,7 @@ public class Ejercicio02 {
         int[] Aiz = rotarIzquierdaArray(A, d);
         
         System.out.println("Arreglo original: " + Arrays.toString(A));
-        System.out.println("Arreglo rotado hacia la izquierda: " + Arrays.toString(Aiz));
+        System.out.println("Arreglo que ha sido rotado hacia la izquierda: " + Arrays.toString(Aiz));
     }
     
     public static int[] rotarIzquierdaArray(int[] A, int d) {
